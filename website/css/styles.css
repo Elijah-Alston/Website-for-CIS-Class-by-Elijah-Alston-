@@ -62,10 +62,11 @@ margin-top: 50px;
 
 .Index-article{
 
+    margin-top: 100px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 height: 200px;
 width: 200px;
-display: block;
+
   grid-template-columns: auto auto auto auto;
   transition: 1s;
 
@@ -98,8 +99,11 @@ transition:  .75s;
 }
 .Index-p{
     background-color: #ff9;
-width: 100px;
-text-align:center
+
+text-align:center;
+display: block;
+width: 200px;
+
 }
 
 .Index-button{
@@ -108,6 +112,8 @@ background-color: #00171F;
 color: white;
 padding: 7px;
 display: block;
+height: 35px;
+margin: auto;
 
 
 
@@ -123,4 +129,18 @@ display: block;
     
     
     
+    }
+
+    .Index-img{
+
+padding-top: 15px;
+width: 80%;
+
+    }
+
+    .Index-h1{
+
+
+font-size: 20px;
+
     }
