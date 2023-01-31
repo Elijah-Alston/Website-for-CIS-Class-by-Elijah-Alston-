@@ -53,7 +53,7 @@ color: #00A7E1;
 display: grid;
 gap: 75px 200px;
 grid-template-columns: auto auto auto auto;
-margin-top: 50px;
+margin-top: 200px;
 
 
 
@@ -84,19 +84,14 @@ from { background-color: #00171F;
         color: #00171F;}
 }
 
-.Index-article:hover{
-
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-height: 350px;
-width: 350px;
-transition:  .75s;
 
 
 
 
 
 
-}
+
+
 .Index-p{
     background-color: #ff9;
 
@@ -114,13 +109,7 @@ padding: 7px;
 display: block;
 height: 35px;
 margin: auto;
-
-
-
-
-
 }
-
 .Index-button:hover{
 
    
@@ -130,6 +119,12 @@ margin: auto;
     
     
     }
+
+
+
+
+
+
 
     .Index-img{
 
@@ -143,4 +138,84 @@ width: 80%;
 
 font-size: 20px;
 
+    }
+
+    @media only screen and (min-width: 800px) {
+
+
+
+        .Index-article:hover{
+
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        height: 350px;
+        width: 350px;
+        transition:  .75s;
+        }
+
+    }
+        
+
+       
+  
+        
+    
+
+
+
+    @media only screen and (max-width: 768px) {
+
+
+        .Index-div{
+
+            background-color: white;
+            height: 200px;
+            width: 200px;
+            
+            border-radius: 75px;
+            padding: 75px;
+            margin-top: 50px;
+        
+            box-shadow: #000;
+            text-align: center;
+            
+            margin-left: auto;
+            margin-right: auto;
+        
+        }
+
+        .Index-wrapper{
+            display: grid;
+            row-gap: 2px;
+            grid-template-columns: auto ;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 250px;
+            
+           align-content: center;
+        }
+        
+.Index-h2{
+
+    font-size: 30px;
+    color: #00A7E1;
+   text-align: center;
+
+}
+
+.Index-article{
+
+
+    
+    box-shadow: rgba(86, 244, 255, 0.35) 0px 5px 15px;
+height: 200px;
+width: 200px;
+
+background-color: white;
+}
+
+  
+
+
+    
+    
     }
