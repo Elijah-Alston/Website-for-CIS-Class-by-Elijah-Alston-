@@ -21,6 +21,7 @@ background-color: #00171F;
 color: #00A7E1;
 
 }
+/* start of index/home page*/
 
 .Index-div{
 
@@ -43,26 +44,45 @@ color: #00A7E1;
 
 .Index-h2{
 
-    font-size: 90px;
+    font-size: 75px;
     color: #00A7E1;
    text-align: center;
+   font-weight: bold;
 
 }
+
+
+
 
 .Index-wrapper{
 display: grid;
 gap: 75px 200px;
 grid-template-columns: auto auto auto auto;
-margin-top: 200px;
+margin-top: 25px;
+
+}
+
+.Index-openp{
+
+
+    margin-top: 20px;
+font-size: 30px;
+
+padding: 5px;
+border-radius: 5px;
+border: solid black 10px;
+background-color: #00A7E1;
+color: white;
 
 
 
 }
 
 
+
 .Index-article{
 
-    margin-top: 100px;
+    margin-top: 35px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 height: 200px;
 width: 200px;
@@ -218,4 +238,71 @@ background-color: white;
 
     
     
+    }
+    /* end of home page*/
+
+    .Company-img{
+
+       
+        width: 20%;
+
+    }
+    .Company-flyer{
+
+
+height: 200px;
+width: 200px;
+border:#00A7E1 solid 5px ;
+margin-top: 20px;
+
+    }
+
+    /* Start of companies Pages*/
+
+
+    .Home-button{
+
+position: absolute;
+top: 75px;
+left: 160px;
+background-color: #00A7E1;
+border-radius: 50px;
+
+    }
+
+
+    .Home-img{
+
+height: 100px;
+width: 150x;
+
+
+
+    }
+
+    .Verizon-p, .Kpmg-p, .Honeywell-p, .Gainwell-p{
+
+        margin-top: 20px;
+        font-size: 35px;
+    }
+
+    .Gainwell-a{
+
+        font-size: 30px;
+        text-decoration: none;
+        color: black;
+        background-color: #00A7E1;
+        padding: 10px;
+        border-radius: 15px;
+       position: absolute;
+       top: 700px;
+       left: 450px
+    }
+
+    .Gainwell-a:hover{
+
+background-color: #00171F;
+color: white;
+transition:  infinte;
+
     }
